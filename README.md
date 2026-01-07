@@ -60,3 +60,24 @@ phishing-detection/
 └── index.html
 ```
 
+---
+
+## 🛠️ Tech Stack
+
+| Part | Tech |
+|------|------|
+| Frontend | React / Vite / HTML / CSS |
+| Backend API | Flask / FastAPI / Node |
+| ML Model | scikit-learn / TensorFlow (Optional) |
+| Deployment | Vercel / Render / Heroku |
+| Language | TypeScript / JavaScript / Python |
+
+---
+
+## 🧩 Installation
+
+### **Clone the Repository**
+```
+git clone https://github.com/prashant2007-wq/phishing-detection.git
+```
+
