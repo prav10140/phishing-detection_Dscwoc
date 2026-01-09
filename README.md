@@ -10,7 +10,7 @@ A web-based phishing detection application that helps users identify whether a U
 
 - 🚀 Overview
 - 🧠 Features 
-- 📁 Project Structure 
+- 📁 Project Structure  
 - ⚙️ Tech Stack
 - 🔧 Installation
 
