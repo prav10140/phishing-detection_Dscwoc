@@ -8,7 +8,7 @@ try:
 except ImportError:
     from app.predict import predict_url
 app = Flask(__name__)
-CORS(app)  # Enable CORS for React frontend
+CORS(app)  
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
