@@ -2,18 +2,13 @@ import joblib
 import numpy as np
 import re
 from urllib.parse import urlparse
-
-# Load your trained model
-# Adjust the path based on where your model file is located
 MODEL_PATH = '../model/phishing_model.pkl'
-
 try:
     model = joblib.load(MODEL_PATH)
     print("Model loaded successfully!")
 except Exception as e:
     print(f"Error loading model: {e}")
     model = None
-
 def extract_features(url):
     """
     Extract features from URL for prediction
@@ -22,13 +17,10 @@ def extract_features(url):
         dict: Dictionary containing all extracted features
     """
     features = {}
-    
-    # Parse URL
     try:
         parsed = urlparse(url)
     except:
         parsed = None
-    
     # Feature 1: URL Length
     features['url_length'] = len(url)
     
